@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+html {
+	height: 100%;
+
+}
+body {
+	min-height: 100%;
+	font: 400 27px/40px Georgia, Times,"Times New Roman",serif;
+	color: #a8a8aa;
+	background: #f1f1f1;
+}
+.container {
+	width: 100%;
+	max-width: 1100px;
+	padding: 0 20px;
+	margin: 0 auto;
+	
+}
+.people {
+	display: flex;
+	
+}
+.list {
+	width: 33.33%;
+}
+.img  {
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+	
+}
+.img img {
+	height: 100%;
+	
+}
+.field {
+font: 63px Times New Roman sans-serif ;
+color: #c2c2c2;
+border: none;
+background: #f1f1f1;
+margin-bottom: 90px;
+margin-top: 80px;
+
+}
+button {
+	background: url('../images/magnifier.svg') no-repeat;
+	height: 76px;
+	width: 76px;
+	border: none;
+}
+
+.img1 {
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 50px;
+}
+
+h2 {
+	font: 15px Times New Roman sans-serif;	
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+
+.img2 {
+	
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+	border: none;
+}
+li {
+
+	background: #ebebed; 
+	margin-bottom: 5px;
+	height: 74px;
+	width: 320px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+}
+li:hover {
+	color: #e8606e;
+	background: #e4e4e6;
+}
+a {
+
+	text-decoration: none;
+}
+a {
+	font-size: 12px;
+	color: #ababad;
+}
+a:hover {
+	color: #e8606e;	
+}
+
+p {
+	font: 12px Times New Roman sans-serif;
+	font-weight: 700;
+}
